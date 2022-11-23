@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>contact</title>
+    </head>
+    <body>
+        <u><h2>My Personal Details</h2></u>
+        <table cellspacing="1px" border="1px">
+            <tbody>
+                <tr>
+                    <td><strong>Contact No:</strong></td>
+                    <td>+91 9654XXXXXX</td>
+                </tr>
+                <tr>
+                    <td><strong>Email Address:</strong></td>
+                    <td>tusharraXXXXXXXX@gmail.com</td>
+                </tr>
+                <tr>
+                    <td><strong>Address:</strong></td>
+                    <td>somewhere on earth</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <hr>
+
+        <!--FORMS CREATION-->
+        <u><h2>Your Details</h2></u>
+        <form action="mailto:kumar120775@gmail.com" method="post" enctype="text/plain"><!--"form" tag used to create a form, here action attribute is used to define the destinantion where out page will take us when we click on submit button-->
+            <!--"method" used to define where our filled information is going to transfer-->
+
+            <!--"enctype" tells browser in which format our message is-->
+            <label for="">Your Name:</label><!--"label" is used as labeling.looing at which user fill the form-->
+            <input type="text" name="Yourname"><!--text type is as we want to insert text in this column-->
+            <input type="submit"><!--used for submit button-->
+
+            <!--attribute "name" used to identify the inputed information by labeling and classifying it in responses-->
+            <!--for other attributes-->
+            <br>
+            <hr>
+            <label for="">Date Of Birth</label>
+            <input type="date" name="DateOfBirth"><br>
+            <hr>
+            <label for="">Your Favourite Color: </label>
+            <input type="color" name="Color">
+            <br>
+            <hr>
+            
+            <label for="">Passport Size Photo:</label>
+            <input type="file">
+            <br>
+            <hr>
+            <label for="">Do you accept our terms and conditions</label>
+            <input type="checkbox"><br>
+            <hr>
+            <label for="">Your suggestions:</label><br>
+            <textarea name="Suggestion" id="" cols="30" rows="10"></textarea><br>
+            <input type="submit">
+            <hr>
+            
+        </form>
+    </body>
+    </html>
